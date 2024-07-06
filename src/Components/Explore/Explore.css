@@ -1,0 +1,26 @@
+.explore_menu h1{
+    text-align: center;
+    
+}
+.explore_menu_list{
+    display: flex;
+    gap: 20px;
+    place-content: center;
+}
+.explore_menu_list_item .name{
+    display: inline-block;
+    background-color: #edebeb;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.explore_menu_list_item .name p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.explore_menu_list_item .active{
+    border: 2px solid #fca120;
+    border-radius: 30px;
+}
